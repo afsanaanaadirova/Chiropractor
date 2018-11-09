@@ -1,0 +1,96 @@
+@import 'parts/common';
+.section1{
+    background: $orange_color;
+    padding-top: 15px;
+    height: 59px;
+     ul{
+        li{
+                display: inline;
+                padding-left: 13px;
+        }
+     }
+     .dif{
+        cursor: text;
+        text-decoration: none;
+        &:hover{
+            color:$white;
+        }
+        text-decoration-color: none;
+     }
+        a{
+            color:$white;
+            &:hover{
+                color: $green_color;
+            }
+         }
+}
+.section2{
+    .caruseltext{
+        position: absolute;
+        top: 310px;
+        left: 14px;
+        z-index: 3;
+        text-align: center;
+     h1{
+         font-size: 100px;
+         color:white;
+     }
+     p{
+         font-size: 22px;
+         color:white;
+         margin: 0 180px;
+     }
+     .btn-primary{
+        @extend %btn;
+    }
+    
+    }
+    .navbar{
+        position: absolute!important;
+        top: 96px!important;
+        right: 0;
+        z-index: 3!important;
+        .nav-link{
+            padding-right: 3rem!important;
+            color:$white!important;
+            font-size: 16px!important;
+            text-transform: uppercase!important;
+        }
+    }
+    .bg-light {
+        background-color:transparent!important;
+    }
+    .logo{
+        position: absolute !important;
+        top: 114px !important;
+        left: 55px;
+        z-index: 2 !important;
+    }
+    .carousel-item{
+        &::before{
+            content: ""!important;
+            width: 100%!important;
+            height: 100%!important;
+            background-color: black!important;
+            opacity: 0.5!important;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+    }
+    .navbar {
+        position: relative;
+      .homediv{
+        position: absolute;
+        top: 42px;
+        left: 9px;
+        background-color: #443d3d;
+        display: none!important;
+          li{
+              font-size: 15px!important;
+              list-style-type: none;
+          }
+      }
+    }
+}

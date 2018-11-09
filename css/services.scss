@@ -1,0 +1,62 @@
+
+@import 'parts/common';
+@import 'parts/navbar';
+.section2{
+    .navsection{
+        width: 100%;
+        height: 407px;
+        background-image:url("../img/Home/background-effect-3.jpg");
+        background-size:cover; 
+        position: relative;
+        &::after{
+            content:'';
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color:black;
+            opacity: 0.8;
+            z-index: 0;
+        }
+        h1{
+            text-align: center;
+            margin-top:187px;
+            color: white;
+            z-index: 2;
+        }
+        ul{
+            padding-top: 21px;
+            padding-left: 458px;
+            li{
+              display: inline-block;
+              a{
+                  color:white;
+                  font-size: 12px;
+              }
+            }
+        }
+    }
+}
+.section5{
+    text-align: center;
+    height: 1300px;
+    padding-top: 90px;
+    a,p,h3,h4{
+    }
+    p{
+        font-size: 17px;
+        padding: 12px 6px 0 6px;
+    }
+    .duzxett{
+        &::before{
+            content: "\f111";
+            background:$white;
+        }
+        
+}
+.imgsection2{
+    margin-top: 60px;
+}
+}
+@import 'parts/footer';

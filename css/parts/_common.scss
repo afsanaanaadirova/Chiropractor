@@ -1,0 +1,42 @@
+   // colors
+ $white:#fff;
+ $orange_color:#f2963f;
+ $green_color:#7fc540;
+ $greydark_color:#444444;
+ $grey_color:#777777;
+ $greenrgb_color:rgba(148, 149, 151, 0.9);
+
+%btn {
+   border-radius: 5px;
+   width: auto;
+   height: 45px;
+   line-height: 30px;
+   text-align: center;
+   color:$white;
+   transition: .2s ease-in-out;
+   background-color: $green_color;
+   border: 1px soid $green_color; 
+   &:hover{
+       background-color: $orange_color;
+   }
+}
+   .duzxett{
+        width:235px;
+        background-color:$white;
+        position: relative;
+        &::before{
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f111";
+            position: absolute;
+            left: 40%;
+            top: -15px;
+            background: #444444;
+            padding: 0px 12px;
+            color: #f2963f;
+            font-size: 20px;
+        }
+    }
+    .imgsection{
+        margin-top: 80px;
+       }

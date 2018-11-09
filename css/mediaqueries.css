@@ -1,0 +1,164 @@
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media (max-width: 768px){
+    .col-md-3 {
+        font-size: 15px!important;
+        margin-left: -12px!important;
+    }
+    .col-md-10 {
+        font-size: 13px!important;
+        margin-left: -50px!important;
+}
+/* .section2 */
+.section2 .logo{
+    left: 37px!important;
+}
+.section2 .navbar{
+    background: #f5e7e7!important;
+    margin-right: 45px!important;
+}
+.section2 .bg-light {
+    background-color:red !important;
+}
+.section2 .caruseltext p {
+    font-size: 21px!important;
+    margin:0!important; 
+}
+.section2 .caruseltext h1 {
+    font-size: 60px!important;
+    margin-top: -123px!important; 
+}
+.section2 .caruseltext .btn {
+    margin-top: 25px!important; 
+}
+.section2 #carouselExampleControls span {
+    display: none!important; 
+}
+/* section3 */
+.section3{
+    height: 300px!important;
+}
+.section3 .row{
+    margin-left: -126px!important;
+}
+.section3 .other{
+    margin-top: -265px!important;
+}
+.section3 .other .box{
+    width: 100%!important;
+    margin-left:0!important; 
+    padding:0!important; 
+}
+/* section4 */
+.section4 h6{
+    margin-left: 90px!important;
+}
+.section4 h4{
+    margin-right: -8px!important;
+}
+/* section5 */
+.section5 {
+    height: 1123px!important;
+}
+.section5 img{
+    max-width: 100%!important;
+}
+.section5 .difimg img{
+    margin-top:25px!important;
+}
+.section5 .difimg p{
+    padding: 10px 178px!important;
+}
+/* section6 */
+.section6{
+    height: 100%!important;
+}
+.section6 p{
+  padding: 0!important;
+}
+.section6 .imgsection .content .content-overlay{
+    background:none!important;
+}
+/* section7 */
+.section7 img{
+    left: 331px!important;
+}
+/* section9 */
+.section9{
+    height: 928px!important;
+}
+.section9 img{
+    max-width:100%!important;
+}
+.section9 .textdiv{
+ height:144%!important;
+}
+.section9 .section9title{
+    padding: 0 30px!important;
+}
+/* section10 */
+.section10 .section10in{
+    height: 622px!important;
+}
+/* .section11 */
+.section11{
+    height: 769px!important;
+}
+.section11 .video::after{
+    content: "";
+    position: absolute;
+    top: 168px!important;
+    left: 15px!important;
+    width: 92%!important;
+    height: 11%!important;
+    background-color: black;
+    opacity: 0.6;
+}
+.section11 .section11div .diger .ziehharmonika h3{
+    width: 113%!important;
+}
+.section11 .video .videotext{
+    top: 162px!important;
+    left: 6px!important;
+}
+.section11 .section11div .diger{
+    margin-left:0!important;
+}
+/* section12 */
+.section12{
+    height: 600px!important;
+}
+.section12 .dif{
+    margin-top: 59!important;
+}
+.section12 .dif2{
+    margin-top: 77px!important;
+}
+/* section13 */
+.section13{
+    height: 900px!important;
+}
+.section13 footer{
+    padding-left: 66px!important;
+}
+}
+
+
+

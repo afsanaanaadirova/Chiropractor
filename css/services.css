@@ -1,0 +1,244 @@
+.section2 .caruseltext .btn-primary {
+  border-radius: 5px;
+  width: auto;
+  height: 45px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  transition: .2s ease-in-out;
+  background-color: #7fc540;
+  border: 1px soid #7fc540; }
+  .section2 .caruseltext .btn-primary:hover {
+    background-color: #f2963f; }
+
+.duzxett {
+  width: 235px;
+  background-color: #fff;
+  position: relative; }
+  .duzxett::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f111";
+    position: absolute;
+    left: 40%;
+    top: -15px;
+    background: #444444;
+    padding: 0px 12px;
+    color: #f2963f;
+    font-size: 20px; }
+
+.imgsection {
+  margin-top: 80px; }
+
+.section2 .caruseltext .btn-primary {
+  border-radius: 5px;
+  width: auto;
+  height: 45px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  transition: .2s ease-in-out;
+  background-color: #7fc540;
+  border: 1px soid #7fc540; }
+  .section2 .caruseltext .btn-primary:hover {
+    background-color: #f2963f; }
+
+.duzxett {
+  width: 235px;
+  background-color: #fff;
+  position: relative; }
+  .duzxett::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f111";
+    position: absolute;
+    left: 40%;
+    top: -15px;
+    background: #444444;
+    padding: 0px 12px;
+    color: #f2963f;
+    font-size: 20px; }
+
+.imgsection {
+  margin-top: 80px; }
+
+.section1 {
+  background: #f2963f;
+  padding-top: 15px;
+  height: 59px; }
+  .section1 ul li {
+    display: inline;
+    padding-left: 13px; }
+  .section1 .dif {
+    cursor: text;
+    text-decoration: none;
+    text-decoration-color: none; }
+    .section1 .dif:hover {
+      color: #fff; }
+  .section1 a {
+    color: #fff; }
+    .section1 a:hover {
+      color: #7fc540; }
+
+.section2 .caruseltext {
+  position: absolute;
+  top: 310px;
+  left: 14px;
+  z-index: 3;
+  text-align: center; }
+  .section2 .caruseltext h1 {
+    font-size: 100px;
+    color: white; }
+  .section2 .caruseltext p {
+    font-size: 22px;
+    color: white;
+    margin: 0 180px; }
+.section2 .navbar {
+  position: absolute !important;
+  top: 96px !important;
+  right: 0;
+  z-index: 3 !important; }
+  .section2 .navbar .nav-link {
+    padding-right: 3rem !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important; }
+.section2 .bg-light {
+  background-color: transparent !important; }
+.section2 .logo {
+  position: absolute !important;
+  top: 114px !important;
+  left: 55px;
+  z-index: 2 !important; }
+.section2 .carousel-item::before {
+  content: "" !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: black !important;
+  opacity: 0.5 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+.section2 .navbar {
+  position: relative; }
+  .section2 .navbar .homediv {
+    position: absolute;
+    top: 42px;
+    left: 9px;
+    background-color: #443d3d;
+    display: none !important; }
+    .section2 .navbar .homediv li {
+      font-size: 15px !important;
+      list-style-type: none; }
+
+.section2 .navsection {
+  width: 100%;
+  height: 407px;
+  background-image: url("../img/Home/background-effect-3.jpg");
+  background-size: cover;
+  position: relative; }
+  .section2 .navsection::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 0; }
+  .section2 .navsection h1 {
+    text-align: center;
+    margin-top: 187px;
+    color: white;
+    z-index: 2; }
+  .section2 .navsection ul {
+    padding-top: 21px;
+    padding-left: 458px; }
+    .section2 .navsection ul li {
+      display: inline-block; }
+      .section2 .navsection ul li a {
+        color: white;
+        font-size: 12px; }
+
+.section5 {
+  text-align: center;
+  height: 1300px;
+  padding-top: 90px; }
+  .section5 p {
+    font-size: 17px;
+    padding: 12px 6px 0 6px; }
+  .section5 .duzxett::before {
+    content: "\f111";
+    background: #fff; }
+  .section5 .imgsection2 {
+    margin-top: 60px; }
+
+.section13 {
+  width: 100%;
+  height: 600px;
+  background-image: url("../img/Home/background-effect-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+  .section13::before {
+    content: "";
+    width: 100% !important;
+    height: 100% !important;
+    background-color: black !important;
+    opacity: 0.5 !important;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .section13 footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px; }
+    .section13 footer li {
+      list-style-type: none;
+      padding-top: 13px; }
+      .section13 footer li a {
+        color: #fff; }
+    .section13 footer h3 {
+      color: #7fc540; }
+    .section13 footer span {
+      color: #fff; }
+    .section13 footer ul {
+      margin-left: -34px; }
+    .section13 footer .footdiv1 {
+      z-index: 5; }
+      .section13 footer .footdiv1 img {
+        padding-left: 100px; }
+      .section13 footer .footdiv1 p {
+        color: #fff; }
+      .section13 footer .footdiv1 ul li {
+        display: inline-block;
+        margin-left: 12px;
+        margin-top: 27px; }
+        .section13 footer .footdiv1 ul li:first-child {
+          margin-left: 0; }
+        .section13 footer .footdiv1 ul li a {
+          font-size: 21px; }
+    .section13 footer .footdiv2 {
+      z-index: 5; }
+      .section13 footer .footdiv2 i {
+        color: #f2963f; }
+      .section13 footer .footdiv2 a:hover {
+        color: #f2963f; }
+    .section13 footer .footdiv3 {
+      z-index: 5; }
+      .section13 footer .footdiv3 li .spn1 {
+        margin-left: 25px; }
+      .section13 footer .footdiv3 li .spn2 {
+        margin-left: 39px; }
+      .section13 footer .footdiv3 li .spn3 {
+        margin-left: 19px; }
+      .section13 footer .footdiv3 li .spn4 {
+        margin-left: 31px; }
+    .section13 footer .footdiv4 {
+      z-index: 5; }
+      .section13 footer .footdiv4 a:hover {
+        color: #f2963f; }
+
+/*# sourceMappingURL=services.css.map */
